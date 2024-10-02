@@ -16,7 +16,7 @@ Esta es una aplicación frontend creada en Vue.js que se conecta a una API para 
 1. **Clonar el repositorio:**
 
     ```bash
-    git clone https://github.com/JesusOsorioJ/igmback.git
+    git clone https://github.com/JesusOsorioJ/igmfront.git
     cd proyecto
     ```
 
@@ -28,20 +28,19 @@ Esta es una aplicación frontend creada en Vue.js que se conecta a una API para 
 
 3. **Crear archivo .env:**
 
-Crear un archivo .env en la raíz del proyecto con el siguiente contenido:
+    Crear un archivo .env en la raíz del proyecto con el siguiente contenido:
 
     ```bash
-    VUE_APP_API_URL= url de api
+    VUE_APP_API_URL=urldeapi
     ```
 
-
 4. **Ejecución en entorno local:**
- Para iniciar la aplicación en modo de desarrollo, ejecutar:
+    Para iniciar la aplicación en modo de desarrollo, ejecutar:
 
     ```bash
     npm run serve
     ```
-La aplicación estará disponible en http://localhost:8080/.
+    La aplicación estará disponible en http://localhost:8080/.
 
 ## Scripts disponibles
 ### npm run serve: Inicia la aplicación en modo de desarrollo.
