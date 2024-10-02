@@ -6,15 +6,16 @@ Esta es una aplicación frontend creada en Vue.js que se conecta a una API para 
 
 - **Node.js** versión 14.x o superior
 - **Vue CLI** instalada globalmente:
-  ```bash
-  npm install -g @vue/cli
-  ```
+
+    ```bash
+    npm install -g @vue/cli
+    ```
 
 ## Instalación
 
 1. **Clonar el repositorio:**
 
-  ```bash
+    ```bash
     git clone https://github.com/JesusOsorioJ/igmback.git
     cd proyecto
     ```
@@ -29,9 +30,9 @@ Esta es una aplicación frontend creada en Vue.js que se conecta a una API para 
 
 Crear un archivo .env en la raíz del proyecto con el siguiente contenido:
 
-  ```bash
+    ```bash
     VUE_APP_API_URL= url de api
-```
+    ```
 
 
 4. **Ejecución en entorno local:**
@@ -43,6 +44,6 @@ Crear un archivo .env en la raíz del proyecto con el siguiente contenido:
 La aplicación estará disponible en http://localhost:8080/.
 
 ## Scripts disponibles
-npm run serve: Inicia la aplicación en modo de desarrollo.
-npm run build: Genera la versión de producción de la aplicación.
-npm run lint: Ejecuta el linter para verificar el código.
+### npm run serve: Inicia la aplicación en modo de desarrollo.
+### npm run build: Genera la versión de producción de la aplicación.
+### npm run lint: Ejecuta el linter para verificar el código.
